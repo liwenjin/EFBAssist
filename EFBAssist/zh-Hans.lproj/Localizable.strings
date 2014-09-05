@@ -1,0 +1,129 @@
+/* 
+  Localizable.strings
+  EFBAssist
+
+  Created by ⟢E⋆F⋆B⟣ on 14-3-18.
+  Copyright (c) 2014年 ADCC. All rights reserved.
+*/
+
+
+
+
+
+
+
+//辅助工具页
+
+/*辅助工具页，标题，中文：辅助工具*/
+"assist-title"="辅助工具" ;
+
+/*辅助工具页，标题，中文：计算器*/
+"calculator-title"="计算器" ;
+
+/*辅助工具页，标题，中文：简字简语*/
+"acronym-title"="简字简语" ;
+
+/*辅助工具页，标题，中文：单位转换*/
+"unit-conversion-title" ="单位转换";
+
+/*辅助工具页，标题，中文：航空计算器*/
+"aviation-calcultor-title"="航空计算器";
+
+/*计算器，计量单位，中文：海里*/
+"calculator-unit-seamile"="海里";
+/*计算器，计量单位，中文：公里*/
+"calculator-unit-km"="公里";
+
+
+/*计算器，计量单位，中文：英尺*/
+"calculator-unit-foot"="英尺";
+/*计算器，计量单位，中文：米*/
+"calculator-unit-mile"="米";
+
+/*计算器，计量单位，中文：千克*/
+"calculator-unit-kilogram"="千克";
+/*计算器，计量单位，中文：磅*/
+"calculator-unit-pound"="磅";
+
+/*计算器，计量单位，中文：升*/
+"calculator-unit-litre"="升";
+/*计算器，计量单位，中文：加仑*/
+"calculator-unit-gallon"="加仑";
+
+
+/* 实用工具页, 关闭按钮, 中文: 关闭 */
+"utilities-btn-close" = "关闭";
+/* 实用工具页, 参数标签, 中文: 参数 */
+"utilities-label-parameter" = "计算条件";
+
+/* 实用工具页, 参数标签, 中文: 风分量说明 */
+"utilities-reason-label-text" = "1.左侧风为正,右侧风为负;";
+"utilities-reason-label-text1" = "2.顶风为正,顺风为负;";
+
+/* 实用工具页, 参数标签, 中文: 航空计算器 */
+"utilities-label-wind" = "气象风";
+"utilities-label-runwayDirection" = "跑道真方向";
+"utilities-label-leftCorssWind" = "侧风";
+"utilities-label-HeadingWind" = "跑道风";
+
+"utilities-label-Climbing-Gradient" = "爬升梯度";
+"utilities-label-Ground-Speed" = "地速";
+"utilities-label-Rate-of-Climb" = "爬升率";
+
+"utilities-label-Descent-Gradient" = "下降率";
+"utilities-label-Descent" = "下降高度";
+
+"utilities-label-Elevation" = "标高";
+
+"utilities-label-fuel-density" = "燃油密度";
+"utilities-label-fuel-volume" = "燃油体积";
+"utilities-label-fuel-weight" = "加油重量";
+
+/* 实用工具页, 有效风标签, 中文: 有效风 */
+"utilities-label-headonWind" = "有效风";
+/* 实用工具页, 风向标签, 中文: 风向 */
+"utilities-label-windDirection" = "夹角";
+/* 实用工具页, 风速标签, 中文: 风速 */
+"utilities-label-windSpeed" = "风速";
+
+/* 实用工具页, 计算按钮, 中文: 计算 */
+"utilities-btn-calculate" = "计算";
+/* 实用工具页, 清除按钮, 中文: 清除 */
+"utilities-btn-clear" = "清除";
+/* 实用工具页, 计算结果标签, 中文: 计算结果 */
+"utilities-label-result" = "计算结果";
+/* 实用工具页, 计算结果标签, 中文: 计算说明 */
+"utilities-label-explanation" = "计算说明";
+
+/* 实用工具页, 参数标签, 中文: 压力高度 */
+"utilities-btn-pressure-altitude1" = "压力高度";
+
+/* 实用工具页, 参数标签, 中文: 航空计算器标题 */
+"utilities-btn-ISA" = "ISA温度";
+"utilities-btn-wind" = "风分量";
+"utilities-btn-climb-rate" = "爬升(下降)率/爬升(下降)梯度";
+"utilities-btn-drop-distance" = "下降距离";
+"utilities-btn-pressure-altitude" = "压力高度";
+"utilities-btn-refuel" = "加油量";
+
+/* 实用工具页, 计算结果标签, 中文: 单位转换 */
+"utilities-btn-speed" = "速度";
+"utilities-btn-weight" = "重量";
+"utilities-btn-distance" = "距离";
+"utilities-btn-pressure" = "压强";
+"utilities-btn-temperature" = "温度";
+"utilities-btn-volume" = "体积";
+"utilities-btn-density" = "密度";
+"utilities-metric-system" = "公制";
+"utilities-inch-system" = "英制";
+
+/* 实用工具页, 计算结果标签, 中文: 计算器 */
+"utilities-calculator-Done" = "完成";
+"utilities-calculator-Clear" = "清除";
+"utilities-calculator-Delete" = "删除";
+"utilities-calculator-Next" = "下一个";
+
+
+//图片
+"calculator-background"="new-calculator_en";
+"calculator-background-nightmode"="new-calculator-nightmode_en";

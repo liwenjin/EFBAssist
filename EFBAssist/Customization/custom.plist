@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>app-list</key>
+	<array>
+		<dict>
+			<key>app-title</key>
+			<string>EFB管理器</string>
+			<key>app-icon</key>
+			<string>framework-manage</string>
+			<key>app-schema</key>
+			<string>hnaefb</string>
+		</dict>
+		<dict>
+			<key>app-title</key>
+			<string>消息中心</string>
+			<key>app-icon</key>
+			<string>framework-message</string>
+			<key>app-schema</key>
+			<string>efb-manage</string>
+		</dict>
+		<dict>
+			<key>app-title</key>
+			<string>EFB 1.0</string>
+			<key>app-icon</key>
+			<string>framework-efb</string>
+			<key>app-schema</key>
+			<string>adcc-efb</string>
+		</dict>
+		<dict>
+			<key>app-title</key>
+			<string>电子任务书</string>
+			<key>app-icon</key>
+			<string>framework-assignment</string>
+			<key>app-schema</key>
+			<string>efb-assignment</string>
+		</dict>
+		<dict>
+			<key>app-title</key>
+			<string>电子放行单</string>
+			<key>app-icon</key>
+			<string>framework-release</string>
+			<key>app-schema</key>
+			<string>efb-release</string>
+		</dict>
+		<dict>
+			<key>app-title</key>
+			<string>FD Pro</string>
+			<key>app-icon</key>
+			<string>framework-fd-pro</string>
+			<key>app-schema</key>
+			<string>jeppfdpro</string>
+		</dict>
+		<dict>
+			<key>app-title</key>
+			<string>航路图</string>
+			<key>app-icon</key>
+			<string> </string>
+			<key>app-schema</key>
+			<string>adcc-enroute</string>
+		</dict>
+	</array>
+</dict>
+</plist>

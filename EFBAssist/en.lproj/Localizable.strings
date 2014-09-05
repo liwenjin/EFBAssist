@@ -1,0 +1,131 @@
+/* 
+  Localizable.strings
+  EFBAssist
+
+  Created by ⟢E⋆F⋆B⟣ on 14-3-18.
+  Copyright (c) 2014年 ADCC. All rights reserved.
+*/
+
+
+
+
+
+
+
+//辅助工具页
+
+/*辅助工具页，标题，中文：辅助工具*/
+"assist-title"="Utilities" ;
+
+/*辅助工具页，标题，中文：计算器*/
+"calculator-title"="Calculator" ;
+
+/*辅助工具页，标题，中文：简字简语*/
+"acronym-title"="Glossary" ;
+
+/*辅助工具页，标题，中文：单位转换*/
+"unit-conversion-title" ="Unit Convert";
+
+/*辅助工具页，标题，中文：航空计算器*/
+"aviation-calcultor-title"="Aviation Cal.";
+
+/*计算器，计量单位，中文：海里*/
+"calculator-unit-seamile"="nm";
+/*计算器，计量单位，中文：公里*/
+"calculator-unit-km"="km";
+
+
+/*计算器，计量单位，中文：英尺*/
+"calculator-unit-foot"="ft";
+/*计算器，计量单位，中文：米*/
+"calculator-unit-mile"="m";
+
+/*计算器，计量单位，中文：千克*/
+"calculator-unit-kilogram"="kg";
+/*计算器，计量单位，中文：磅*/
+"calculator-unit-pound"="lb";
+
+/*计算器，计量单位，中文：升*/
+"calculator-unit-litre"="l";
+/*计算器，计量单位，中文：加仑*/
+"calculator-unit-gallon"="gal";
+
+/* 实用工具页, 关闭按钮, 中文: 关闭 */
+"utilities-btn-close" = "Close";
+/* 实用工具页, 参数标签, 中文: 参数 */
+"utilities-label-parameter" = "Parameter";
+
+/* 实用工具页, 参数标签, 中文: 风分量说明 */
+"utilities-reason-label-text" = "1.Left wind is positive, right wind is negative;";
+"utilities-reason-label-text1" = "2.Head wind is positive, tail wind is negative;";
+
+/* 实用工具页, 参数标签, 中文: 航空计算器 */
+"utilities-label-wind" = "Wind";
+"utilities-label-runwayDirection" = "True Heading";
+"utilities-label-leftCorssWind" = "Corss Wind";
+"utilities-label-HeadingWind" = "Runway Component";
+
+"utilities-label-Climbing-Gradient" = "Climb Gradient";
+"utilities-label-Ground-Speed" = "Ground Speed";
+"utilities-label-Rate-of-Climb" = "Rate of Climb";
+
+"utilities-label-Descent-Gradient" = "Descent Rate";
+"utilities-label-Descent" = "Descent Alitude";
+
+"utilities-label-Elevation" = "Elevation";
+
+"utilities-label-fuel-density" = "density";
+"utilities-label-fuel-volume" = "volume";
+"utilities-label-fuel-weight" = "Weight";
+
+/* 实用工具页, 有效风标签, 中文: 有效风 */
+"utilities-label-headonWind" = "RUNWAY BEARING WIND";
+/* 实用工具页, 风向标签, 中文: 风向 */
+"utilities-label-windDirection" = "Angle";
+/* 实用工具页, 风速标签, 中文: 风速 */
+"utilities-label-windSpeed" = "Wind";
+
+/* 实用工具页, 计算按钮, 中文: 计算 */
+"utilities-btn-calculate" = "Calculate";
+/* 实用工具页, 清除按钮, 中文: 清除 */
+"utilities-btn-clear" = "Clear";
+/* 实用工具页, 计算结果标签, 中文: 计算结果 */
+"utilities-label-result" = "Result";
+/* 实用工具页, 计算结果标签, 中文: 计算说明 */
+"utilities-label-explanation" = "Explanation";
+
+/* 实用工具页, 参数标签, 中文: 压力高度 */
+"utilities-btn-pressure-altitude1" = "PA";
+
+/* 实用工具页, 参数标签, 中文: 航空计算器标题 */
+"utilities-btn-ISA" = "ISA Temperature";
+"utilities-btn-wind" = "Wind";
+"utilities-btn-climb-rate" = " Rate of Climb/ Rate of Descent";
+"utilities-btn-drop-distance" = "Descent Distance";
+"utilities-btn-pressure-altitude" = "Pressure Altitude";
+"utilities-btn-refuel" = "Fuel Quantity";
+
+/* 实用工具页, 计算结果标签, 中文: 单位转换 */
+"utilities-btn-speed" = "Speed";
+"utilities-btn-weight" = "Weight";
+"utilities-btn-distance" = "Distance";
+"utilities-btn-pressure" = "Pressure";
+"utilities-btn-temperature" = "Temperature";
+"utilities-btn-volume" = "Volume";
+"utilities-btn-density" = "Density";
+"utilities-metric-system" = "Metric System";
+"utilities-inch-system" = "English System";
+
+/* 实用工具页, 计算结果标签, 中文: 计算器 */
+"utilities-calculator-Done" = "DONE";
+"utilities-calculator-Clear" = "CLR";
+"utilities-calculator-Delete" = "DEL";
+"utilities-calculator-Next" = "NEXT";
+
+
+
+//图片
+"calculator-background"="new-calculator";
+"calculator-background-nightmode"="new-calculator-nightmode";
+
+

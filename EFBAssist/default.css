@@ -1,0 +1,18 @@
+@import url("efb.css")
+
+
+.app-calculator-cal {
+    background-image: url("app-calculator@2x.png");
+}
+
+.app-aviation-cal {
+    background-image: url("app-aviation-cal@2x.png");
+}
+
+.app-unit-convert {
+    background-image: url("app-unit-convert@2x.png");
+}
+
+app-calculator-dic {
+    background-image: url("app-aviation-cal@2x.png");
+}

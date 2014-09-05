@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AEAppListViewController">
+            <connections>
+                <outlet property="view" destination="o9T-Nm-gpb" id="GlL-Gt-G6n"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="none" id="o9T-Nm-gpb">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="700"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="5" id="5V4-Wi-ud2">
+                <size key="itemSize" width="80" height="80"/>
+                <size key="headerReferenceSize" width="0.0" height="2"/>
+                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                <inset key="sectionInset" minX="35" minY="10" maxX="35" maxY="10"/>
+            </collectionViewFlowLayout>
+            <cells/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="styleId" value="app-collection"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="dataSource" destination="-1" id="VOr-ck-zzA"/>
+                <outlet property="delegate" destination="-1" id="bsa-mP-85b"/>
+            </connections>
+        </collectionView>
+    </objects>
+</document>

@@ -1,0 +1,151 @@
+.login-bg {
+    background-image: url("img-bg@2x.png");
+}
+
+.left-panel-bg {
+    /*background-image: url("img-bg@2x.png");*/
+    background-color: #303e4b;
+}
+
+.avatar-icon {
+    background-image: url("img-avatar@2x.png");
+}
+
+.name-field {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.major-field {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.other-field {
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+/* Customized segment control*/
+
+.ae-segment {
+    background-image: url("img-seg-bg@2x.png");
+}
+
+.segment-button, .segment-button:highlighted {
+    background-image: url("img-btn@2x.png");
+}
+
+.segment-button:selected {
+    background-image: url("img-btn-selected@2x.png");
+}
+
+
+#expand-btn {
+    /*background-image: url("img-title-bar-bg@2x.png");*/
+    background-color: clear;
+}
+
+#expand-btn .icon{
+    background-image: url("img-expand-btn@2x.png");
+}
+
+#app-collection {
+    background-color: clear;
+}
+
+#app-collection .title {
+    font-size: 12px;
+    color: white;
+}
+
+#app-collection collection-view-cell {
+    background-color: clear;
+}
+
+#app-collection .section-header {
+    background-image: url("img-divider@2x.png");
+}
+
+.divider {
+    background-image: url("img-divider@2x.png");
+}
+
+/* Module list*/
+
+.app-update {
+    background-image: url("-img-app-update@2x.png");
+}
+
+.app-task {
+    background-image: url("-img-app-tasks@2x.png");
+}
+
+.app-manual {
+    background-image: url("-img-app-manual@2x.png");
+}
+
+.app-perf-doc {
+    background-image: url("-img-app-perf-doc@2x.png");
+}
+
+.app-navchart {
+    background-image: url("-img-app-navchart@2x.png");
+}
+
+.app-flight-folder {
+    background-image: url("-img-app-flight-folder@2x.png");
+}
+
+/* App list */
+
+.framework-manage {
+    background-image: url("-img-custom-manage@2x.png");
+}
+
+.framework-efb {
+    background-image: url("-img-custom-efb@2x.png");
+}
+
+.framework-enroute-chart {
+    background-image: url("-img-custom-enroute-chart@2x.png");
+}
+
+.framework-feedback {
+    background-image: url("-img-custom-feedback@2x.png");
+}
+
+/*       */
+
+#brightness-slider {
+
+}
+
+.btn-logout {
+    background-image: url("img-logout-btn@2x.png");
+    color: white;
+}
+
+.title-bar {
+    /*background-image: url("img-title-bar-bg@2x.png");*/
+    background-color: #303e4b;
+}
+
+.title-bar .caption {
+    font-size: 20px;
+    color: white;
+    font-family: "HelveticaNeue-CondensedBlack"
+}
+
+/*        */
+
+.accessory-bar {
+    background-color: rgba(44, 44, 44, 0.7);
+}
+
+button.unlock {
+    background-image: url("img-lock-btn@2x.png")
+}

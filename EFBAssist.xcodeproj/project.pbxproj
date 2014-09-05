@@ -1,0 +1,1122 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CD4D0E94708489485510E9E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2918C44A7D6D4AC7A0A38E73 /* libPods.a */; };
+		A001E8E818D7D6BD0070FFE7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A001E8EA18D7D6BD0070FFE7 /* Localizable.strings */; };
+		A001E91618D7D8D00070FFE7 /* EFBClimbRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E8F018D7D8D00070FFE7 /* EFBClimbRateViewController.m */; };
+		A001E91718D7D8D00070FFE7 /* EFBClimbRateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A001E8F118D7D8D00070FFE7 /* EFBClimbRateViewController.xib */; };
+		A001E91818D7D8D00070FFE7 /* EFBDropDistanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E8F318D7D8D00070FFE7 /* EFBDropDistanceViewController.m */; };
+		A001E91918D7D8D00070FFE7 /* EFBDropDistanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A001E8F418D7D8D00070FFE7 /* EFBDropDistanceViewController.xib */; };
+		A001E91A18D7D8D00070FFE7 /* EFBISATemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E8F618D7D8D00070FFE7 /* EFBISATemperatureViewController.m */; };
+		A001E91B18D7D8D00070FFE7 /* EFBISATemperatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A001E8F718D7D8D00070FFE7 /* EFBISATemperatureViewController.xib */; };
+		A001E91C18D7D8D00070FFE7 /* EFBPressureHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E8F918D7D8D00070FFE7 /* EFBPressureHeightViewController.m */; };
+		A001E91D18D7D8D00070FFE7 /* EFBPressureHeightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A001E8FA18D7D8D00070FFE7 /* EFBPressureHeightViewController.xib */; };
+		A001E91E18D7D8D00070FFE7 /* EFBRefuelVolumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E8FC18D7D8D00070FFE7 /* EFBRefuelVolumeViewController.m */; };
+		A001E91F18D7D8D00070FFE7 /* EFBRefuelVolumeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A001E8FD18D7D8D00070FFE7 /* EFBRefuelVolumeViewController.xib */; };
+		A001E92018D7D8D00070FFE7 /* EFBUtilitiesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E8FF18D7D8D00070FFE7 /* EFBUtilitiesDetailViewController.m */; };
+		A001E92118D7D8D00070FFE7 /* EFBUtilitiesDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A001E90018D7D8D00070FFE7 /* EFBUtilitiesDetailViewController.xib */; };
+		A001E92218D7D8D00070FFE7 /* EFBWindComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E90218D7D8D00070FFE7 /* EFBWindComponentViewController.m */; };
+		A001E92318D7D8D00070FFE7 /* EFBWindComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A001E90318D7D8D00070FFE7 /* EFBWindComponentViewController.xib */; };
+		A001E92418D7D8D00070FFE7 /* EFBDensityTranslatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E90618D7D8D00070FFE7 /* EFBDensityTranslatedViewController.m */; };
+		A001E92518D7D8D00070FFE7 /* EFBDistanceTranslatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E90818D7D8D00070FFE7 /* EFBDistanceTranslatedViewController.m */; };
+		A001E92618D7D8D00070FFE7 /* EFBPressureTranslatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E90A18D7D8D00070FFE7 /* EFBPressureTranslatedViewController.m */; };
+		A001E92718D7D8D00070FFE7 /* EFBSpeedTranslatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E90C18D7D8D00070FFE7 /* EFBSpeedTranslatedViewController.m */; };
+		A001E92818D7D8D00070FFE7 /* EFBTemperatureTranslatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E90E18D7D8D00070FFE7 /* EFBTemperatureTranslatedViewController.m */; };
+		A001E92918D7D8D00070FFE7 /* EFBUnitTranslatedDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E91018D7D8D00070FFE7 /* EFBUnitTranslatedDetailViewController.m */; };
+		A001E92A18D7D8D00070FFE7 /* EFBUnitTranslatedDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A001E91118D7D8D00070FFE7 /* EFBUnitTranslatedDetailViewController.xib */; };
+		A001E92B18D7D8D00070FFE7 /* EFBVolumeTranslatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E91318D7D8D00070FFE7 /* EFBVolumeTranslatedViewController.m */; };
+		A001E92C18D7D8D00070FFE7 /* EFBWeightTranslatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E91518D7D8D00070FFE7 /* EFBWeightTranslatedViewController.m */; };
+		A001E93118D7D91A0070FFE7 /* EFBAviationCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E92E18D7D91A0070FFE7 /* EFBAviationCalculator.m */; };
+		A001E93218D7D91A0070FFE7 /* EFBUnitSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = A001E93018D7D91A0070FFE7 /* EFBUnitSystem.m */; };
+		A001E94818D7EA320070FFE7 /* calculatorScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A001E93818D7EA320070FFE7 /* calculatorScreen@2x.png */; };
+		A001E94918D7EA320070FFE7 /* darkGrayButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A001E93918D7EA320070FFE7 /* darkGrayButton@2x.png */; };
+		A001E94B18D7EA320070FFE7 /* lightGrayButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A001E93B18D7EA320070FFE7 /* lightGrayButton@2x.png */; };
+		A001E94C18D7EA320070FFE7 /* new-calculator-nightmode.png in Resources */ = {isa = PBXBuildFile; fileRef = A001E93C18D7EA320070FFE7 /* new-calculator-nightmode.png */; };
+		A001E94D18D7EA320070FFE7 /* new-calculator-nightmode_en.png in Resources */ = {isa = PBXBuildFile; fileRef = A001E93D18D7EA320070FFE7 /* new-calculator-nightmode_en.png */; };
+		A001E94E18D7EA320070FFE7 /* new-calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = A001E93E18D7EA320070FFE7 /* new-calculator.png */; };
+		A001E94F18D7EA320070FFE7 /* new-calculator_en.png in Resources */ = {isa = PBXBuildFile; fileRef = A001E93F18D7EA320070FFE7 /* new-calculator_en.png */; };
+		A001E95018D7EA320070FFE7 /* new-calculatorBG.png in Resources */ = {isa = PBXBuildFile; fileRef = A001E94018D7EA320070FFE7 /* new-calculatorBG.png */; };
+		A001E95118D7EA320070FFE7 /* new-calculatorBGLanscape.png in Resources */ = {isa = PBXBuildFile; fileRef = A001E94118D7EA320070FFE7 /* new-calculatorBGLanscape.png */; };
+		A001E95218D7EA320070FFE7 /* utilitiesBg.png in Resources */ = {isa = PBXBuildFile; fileRef = A001E94218D7EA320070FFE7 /* utilitiesBg.png */; };
+		A001E95418D7EA320070FFE7 /* utilitiesTextbox_active.png in Resources */ = {isa = PBXBuildFile; fileRef = A001E94418D7EA320070FFE7 /* utilitiesTextbox_active.png */; };
+		A01156DB193FF74200140DE8 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = A01156DA193FF74200140DE8 /* default.css */; };
+		A08287CD190A0ABA003FD2AD /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A08287CC190A0ABA003FD2AD /* icon@2x.png */; };
+		A08287CF190A2C7E003FD2AD /* bg_line.png in Resources */ = {isa = PBXBuildFile; fileRef = A08287CE190A2C7E003FD2AD /* bg_line.png */; };
+		A08CF46D192DA41100209391 /* EFBDictionaryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A08CF468192DA41100209391 /* EFBDictionaryViewCell.m */; };
+		A08CF46E192DA41100209391 /* EFBDictionaryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08CF469192DA41100209391 /* EFBDictionaryViewCell.xib */; };
+		A08CF46F192DA41100209391 /* EFBDictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08CF46B192DA41100209391 /* EFBDictionaryViewController.m */; };
+		A08CF472192DA59800209391 /* abbr.txt in Resources */ = {isa = PBXBuildFile; fileRef = A08CF471192DA59800209391 /* abbr.txt */; };
+		A08CF474192DBFF000209391 /* cell50.png in Resources */ = {isa = PBXBuildFile; fileRef = A08CF473192DBFF000209391 /* cell50.png */; };
+		A0AF7EDA191B64A000C8ED35 /* app-aviation-cal-w@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0AF7ED4191B64A000C8ED35 /* app-aviation-cal-w@2x.png */; };
+		A0AF7EDB191B64A000C8ED35 /* app-aviation-cal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0AF7ED5191B64A000C8ED35 /* app-aviation-cal@2x.png */; };
+		A0AF7EDC191B64A000C8ED35 /* app-calculator-w@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0AF7ED6191B64A000C8ED35 /* app-calculator-w@2x.png */; };
+		A0AF7EDD191B64A000C8ED35 /* app-calculator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0AF7ED7191B64A000C8ED35 /* app-calculator@2x.png */; };
+		A0AF7EDE191B64A000C8ED35 /* app-unit-convert-w@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0AF7ED8191B64A000C8ED35 /* app-unit-convert-w@2x.png */; };
+		A0AF7EDF191B64A000C8ED35 /* app-unit-convert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0AF7ED9191B64A000C8ED35 /* app-unit-convert@2x.png */; };
+		A0BC8A6719615365006B2C59 /* calculator_equal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0BC8A6319615365006B2C59 /* calculator_equal@2x.png */; };
+		A0BC8A6819615365006B2C59 /* calculator_number@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0BC8A6419615365006B2C59 /* calculator_number@2x.png */; };
+		A0BC8A6919615365006B2C59 /* calculator_show@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0BC8A6519615365006B2C59 /* calculator_show@2x.png */; };
+		A0BC8A6A19615365006B2C59 /* calculator_zero@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0BC8A6619615365006B2C59 /* calculator_zero@2x.png */; };
+		A0BC8A6C196153A9006B2C59 /* calculator_change@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0BC8A6B196153A9006B2C59 /* calculator_change@2x.png */; };
+		A0DAC0AC18D68516002EF002 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DAC0AB18D68516002EF002 /* UIKit.framework */; };
+		A0DAC0AE18D68516002EF002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DAC0AD18D68516002EF002 /* Foundation.framework */; };
+		A0DAC0B018D68516002EF002 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DAC0AF18D68516002EF002 /* CoreGraphics.framework */; };
+		A0DAC0B618D68516002EF002 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0B418D68516002EF002 /* InfoPlist.strings */; };
+		A0DAC0B818D68516002EF002 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DAC0B718D68516002EF002 /* main.m */; };
+		A0DAC0BC18D68516002EF002 /* EFBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DAC0BB18D68516002EF002 /* EFBAppDelegate.m */; };
+		A0DAC0BE18D68516002EF002 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0BD18D68516002EF002 /* Default.png */; };
+		A0DAC0C018D68516002EF002 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0BF18D68516002EF002 /* Default@2x.png */; };
+		A0DAC0C218D68516002EF002 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0C118D68516002EF002 /* Default-568h@2x.png */; };
+		A0DAC0CA18D68516002EF002 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DAC0C918D68516002EF002 /* SenTestingKit.framework */; };
+		A0DAC0CB18D68516002EF002 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DAC0AB18D68516002EF002 /* UIKit.framework */; };
+		A0DAC0CC18D68516002EF002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DAC0AD18D68516002EF002 /* Foundation.framework */; };
+		A0DAC0D418D68516002EF002 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0D218D68516002EF002 /* InfoPlist.strings */; };
+		A0DAC0D718D68516002EF002 /* EFBAssistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DAC0D618D68516002EF002 /* EFBAssistTests.m */; };
+		A0DAC0ED18D68675002EF002 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DAC0EC18D68675002EF002 /* Security.framework */; };
+		A0DAC0EF18D68693002EF002 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DAC0EE18D68693002EF002 /* QuartzCore.framework */; };
+		A0DAC11918D68729002EF002 /* app-add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0F118D68729002EF002 /* app-add@2x.png */; };
+		A0DAC11A18D68729002EF002 /* app-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0F218D68729002EF002 /* app-bg@2x.png */; };
+		A0DAC11B18D68729002EF002 /* app-flight-exp-w@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0F318D68729002EF002 /* app-flight-exp-w@2x.png */; };
+		A0DAC11C18D68729002EF002 /* app-flight-exp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0F418D68729002EF002 /* app-flight-exp@2x.png */; };
+		A0DAC11D18D68729002EF002 /* app-flight-info-w@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0F518D68729002EF002 /* app-flight-info-w@2x.png */; };
+		A0DAC11E18D68729002EF002 /* app-flight-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0F618D68729002EF002 /* app-flight-info@2x.png */; };
+		A0DAC11F18D68729002EF002 /* app-information-w@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0F718D68729002EF002 /* app-information-w@2x.png */; };
+		A0DAC12018D68729002EF002 /* app-information@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0F818D68729002EF002 /* app-information@2x.png */; };
+		A0DAC12118D68729002EF002 /* app-lock-screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0F918D68729002EF002 /* app-lock-screen@2x.png */; };
+		A0DAC12218D68729002EF002 /* app-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0FA18D68729002EF002 /* app-logo@2x.png */; };
+		A0DAC12318D68729002EF002 /* app-mainmenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0FB18D68729002EF002 /* app-mainmenu@2x.png */; };
+		A0DAC12418D68729002EF002 /* app-spread@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0FC18D68729002EF002 /* app-spread@2x.png */; };
+		A0DAC12518D68729002EF002 /* app-submit-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0FD18D68729002EF002 /* app-submit-icon@2x.png */; };
+		A0DAC12618D68729002EF002 /* app-submit-w@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0FE18D68729002EF002 /* app-submit-w@2x.png */; };
+		A0DAC12718D68729002EF002 /* app-submit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC0FF18D68729002EF002 /* app-submit@2x.png */; };
+		A0DAC12818D68729002EF002 /* app-tab-selected-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC10018D68729002EF002 /* app-tab-selected-bg@2x.png */; };
+		A0DAC12918D68729002EF002 /* app.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC10118D68729002EF002 /* app.plist */; };
+		A0DAC12A18D68729002EF002 /* custom-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC10318D68729002EF002 /* custom-logo@2x.png */; };
+		A0DAC12C18D68729002EF002 /* app_locked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC10618D68729002EF002 /* app_locked@2x.png */; };
+		A0DAC12D18D68729002EF002 /* app_unlocked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC10718D68729002EF002 /* app_unlocked@2x.png */; };
+		A0DAC12E18D68729002EF002 /* framework-assignment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC10818D68729002EF002 /* framework-assignment@2x.png */; };
+		A0DAC12F18D68729002EF002 /* framework-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC10918D68729002EF002 /* framework-bg@2x.png */; };
+		A0DAC13018D68729002EF002 /* framework-efb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC10A18D68729002EF002 /* framework-efb@2x.png */; };
+		A0DAC13118D68729002EF002 /* framework-fd-pro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC10B18D68729002EF002 /* framework-fd-pro@2x.png */; };
+		A0DAC13218D68729002EF002 /* framework-line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC10C18D68729002EF002 /* framework-line@2x.png */; };
+		A0DAC13318D68729002EF002 /* framework-mainmenu-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC10D18D68729002EF002 /* framework-mainmenu-bg@2x.png */; };
+		A0DAC13418D68729002EF002 /* framework-manage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC10E18D68729002EF002 /* framework-manage@2x.png */; };
+		A0DAC13518D68729002EF002 /* framework-menuitem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC10F18D68729002EF002 /* framework-menuitem@2x.png */; };
+		A0DAC13618D68729002EF002 /* framework-message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC11018D68729002EF002 /* framework-message@2x.png */; };
+		A0DAC13718D68729002EF002 /* framework-release@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC11118D68729002EF002 /* framework-release@2x.png */; };
+		A0DAC13818D68729002EF002 /* framework-slider-switch-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC11218D68729002EF002 /* framework-slider-switch-button@2x.png */; };
+		A0DAC13918D68729002EF002 /* framework-slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC11318D68729002EF002 /* framework-slider@2x.png */; };
+		A0DAC13A18D68729002EF002 /* framework-switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC11418D68729002EF002 /* framework-switch@2x.png */; };
+		A0DAC13B18D68729002EF002 /* framework-tab-button-selected-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC11518D68729002EF002 /* framework-tab-button-selected-bg@2x.png */; };
+		A0DAC13C18D68729002EF002 /* tool-bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC11618D68729002EF002 /* tool-bottom@2x.png */; };
+		A0DAC13D18D68729002EF002 /* tool-mid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC11718D68729002EF002 /* tool-mid@2x.png */; };
+		A0DAC13E18D68729002EF002 /* tool-top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC11818D68729002EF002 /* tool-top@2x.png */; };
+		A0DAC14218D6891E002EF002 /* EFBCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DAC14118D6891E002EF002 /* EFBCalculatorViewController.m */; };
+		A0DAC14518D68A01002EF002 /* EFBUnitConverrtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DAC14418D68A01002EF002 /* EFBUnitConverrtViewController.m */; };
+		A0DAC14818D68A26002EF002 /* EFBAviationCalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DAC14718D68A26002EF002 /* EFBAviationCalViewController.m */; };
+		A0DAC1C318D6F849002EF002 /* CalculatorCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DAC1B418D6F849002EF002 /* CalculatorCellView.m */; };
+		A0DAC1C418D6F849002EF002 /* CalculatorCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC1B518D6F849002EF002 /* CalculatorCellView.xib */; };
+		A0DAC1C518D6F849002EF002 /* EFBCalculatorUnitCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DAC1B718D6F849002EF002 /* EFBCalculatorUnitCellView.m */; };
+		A0DAC1C618D6F849002EF002 /* EFBCalculatorUnitCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC1B818D6F849002EF002 /* EFBCalculatorUnitCellView.xib */; };
+		A0DAC1C718D6F849002EF002 /* EFBNumberPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DAC1BA18D6F849002EF002 /* EFBNumberPadViewController.m */; };
+		A0DAC1C818D6F849002EF002 /* EFBNumberPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC1BB18D6F849002EF002 /* EFBNumberPadViewController.xib */; };
+		A0DAC1C918D6F849002EF002 /* EFBNumpadController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DAC1BD18D6F849002EF002 /* EFBNumpadController.m */; };
+		A0DAC1CA18D6F849002EF002 /* EFBUtilitiesTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DAC1BF18D6F849002EF002 /* EFBUtilitiesTextField.m */; };
+		A0DAC1CB18D6F849002EF002 /* EFBUtilitiesTitleCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DAC1C118D6F849002EF002 /* EFBUtilitiesTitleCellView.m */; };
+		A0DAC1CC18D6F849002EF002 /* EFBUtilitiesTitleCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC1C218D6F849002EF002 /* EFBUtilitiesTitleCellView.xib */; };
+		A0DD7F221960EBE900194F8D /* utilitiesButton_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DD7F201960EBE800194F8D /* utilitiesButton_select@2x.png */; };
+		A0DD7F231960EBE900194F8D /* utilitiesButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DD7F211960EBE800194F8D /* utilitiesButton@2x.png */; };
+		A0DD7F261960F48C00194F8D /* utilitiesButton_select1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DD7F241960F48C00194F8D /* utilitiesButton_select1@2x.png */; };
+		A0DD7F271960F48C00194F8D /* utilitiesButton1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DD7F251960F48C00194F8D /* utilitiesButton1@2x.png */; };
+		A0DD7F2A1960FE7100194F8D /* utilitiesTextbox_display@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DD7F281960FE7100194F8D /* utilitiesTextbox_display@2x.png */; };
+		A0DD7F2B1960FE7100194F8D /* utilitiesTextbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DD7F291960FE7100194F8D /* utilitiesTextbox@2x.png */; };
+		A0FADDD418D6F8BA00FD33B7 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FADDD218D6F8BA00FD33B7 /* CalculatorViewController.m */; };
+		A0FADDD518D6F8BA00FD33B7 /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0FADDD318D6F8BA00FD33B7 /* CalculatorViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0DAC0CD18D68516002EF002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0DAC0A018D68516002EF002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0DAC0A718D68516002EF002;
+			remoteInfo = EFBAssist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2918C44A7D6D4AC7A0A38E73 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A41626C9254C3BBDB2FF3E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A001E8E918D7D6BD0070FFE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A001E8EC18D7D6D80070FFE7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		A001E8ED18D7D6D80070FFE7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A001E8EF18D7D8D00070FFE7 /* EFBClimbRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBClimbRateViewController.h; sourceTree = "<group>"; };
+		A001E8F018D7D8D00070FFE7 /* EFBClimbRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBClimbRateViewController.m; sourceTree = "<group>"; };
+		A001E8F118D7D8D00070FFE7 /* EFBClimbRateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFBClimbRateViewController.xib; sourceTree = "<group>"; };
+		A001E8F218D7D8D00070FFE7 /* EFBDropDistanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBDropDistanceViewController.h; sourceTree = "<group>"; };
+		A001E8F318D7D8D00070FFE7 /* EFBDropDistanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBDropDistanceViewController.m; sourceTree = "<group>"; };
+		A001E8F418D7D8D00070FFE7 /* EFBDropDistanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFBDropDistanceViewController.xib; sourceTree = "<group>"; };
+		A001E8F518D7D8D00070FFE7 /* EFBISATemperatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBISATemperatureViewController.h; sourceTree = "<group>"; };
+		A001E8F618D7D8D00070FFE7 /* EFBISATemperatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBISATemperatureViewController.m; sourceTree = "<group>"; };
+		A001E8F718D7D8D00070FFE7 /* EFBISATemperatureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFBISATemperatureViewController.xib; sourceTree = "<group>"; };
+		A001E8F818D7D8D00070FFE7 /* EFBPressureHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBPressureHeightViewController.h; sourceTree = "<group>"; };
+		A001E8F918D7D8D00070FFE7 /* EFBPressureHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBPressureHeightViewController.m; sourceTree = "<group>"; };
+		A001E8FA18D7D8D00070FFE7 /* EFBPressureHeightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFBPressureHeightViewController.xib; sourceTree = "<group>"; };
+		A001E8FB18D7D8D00070FFE7 /* EFBRefuelVolumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBRefuelVolumeViewController.h; sourceTree = "<group>"; };
+		A001E8FC18D7D8D00070FFE7 /* EFBRefuelVolumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBRefuelVolumeViewController.m; sourceTree = "<group>"; };
+		A001E8FD18D7D8D00070FFE7 /* EFBRefuelVolumeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFBRefuelVolumeViewController.xib; sourceTree = "<group>"; };
+		A001E8FE18D7D8D00070FFE7 /* EFBUtilitiesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBUtilitiesDetailViewController.h; sourceTree = "<group>"; };
+		A001E8FF18D7D8D00070FFE7 /* EFBUtilitiesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBUtilitiesDetailViewController.m; sourceTree = "<group>"; };
+		A001E90018D7D8D00070FFE7 /* EFBUtilitiesDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFBUtilitiesDetailViewController.xib; sourceTree = "<group>"; };
+		A001E90118D7D8D00070FFE7 /* EFBWindComponentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBWindComponentViewController.h; sourceTree = "<group>"; };
+		A001E90218D7D8D00070FFE7 /* EFBWindComponentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBWindComponentViewController.m; sourceTree = "<group>"; };
+		A001E90318D7D8D00070FFE7 /* EFBWindComponentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFBWindComponentViewController.xib; sourceTree = "<group>"; };
+		A001E90518D7D8D00070FFE7 /* EFBDensityTranslatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBDensityTranslatedViewController.h; sourceTree = "<group>"; };
+		A001E90618D7D8D00070FFE7 /* EFBDensityTranslatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBDensityTranslatedViewController.m; sourceTree = "<group>"; };
+		A001E90718D7D8D00070FFE7 /* EFBDistanceTranslatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBDistanceTranslatedViewController.h; sourceTree = "<group>"; };
+		A001E90818D7D8D00070FFE7 /* EFBDistanceTranslatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBDistanceTranslatedViewController.m; sourceTree = "<group>"; };
+		A001E90918D7D8D00070FFE7 /* EFBPressureTranslatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBPressureTranslatedViewController.h; sourceTree = "<group>"; };
+		A001E90A18D7D8D00070FFE7 /* EFBPressureTranslatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBPressureTranslatedViewController.m; sourceTree = "<group>"; };
+		A001E90B18D7D8D00070FFE7 /* EFBSpeedTranslatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBSpeedTranslatedViewController.h; sourceTree = "<group>"; };
+		A001E90C18D7D8D00070FFE7 /* EFBSpeedTranslatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBSpeedTranslatedViewController.m; sourceTree = "<group>"; };
+		A001E90D18D7D8D00070FFE7 /* EFBTemperatureTranslatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBTemperatureTranslatedViewController.h; sourceTree = "<group>"; };
+		A001E90E18D7D8D00070FFE7 /* EFBTemperatureTranslatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBTemperatureTranslatedViewController.m; sourceTree = "<group>"; };
+		A001E90F18D7D8D00070FFE7 /* EFBUnitTranslatedDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBUnitTranslatedDetailViewController.h; sourceTree = "<group>"; };
+		A001E91018D7D8D00070FFE7 /* EFBUnitTranslatedDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBUnitTranslatedDetailViewController.m; sourceTree = "<group>"; };
+		A001E91118D7D8D00070FFE7 /* EFBUnitTranslatedDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFBUnitTranslatedDetailViewController.xib; sourceTree = "<group>"; };
+		A001E91218D7D8D00070FFE7 /* EFBVolumeTranslatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBVolumeTranslatedViewController.h; sourceTree = "<group>"; };
+		A001E91318D7D8D00070FFE7 /* EFBVolumeTranslatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBVolumeTranslatedViewController.m; sourceTree = "<group>"; };
+		A001E91418D7D8D00070FFE7 /* EFBWeightTranslatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBWeightTranslatedViewController.h; sourceTree = "<group>"; };
+		A001E91518D7D8D00070FFE7 /* EFBWeightTranslatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBWeightTranslatedViewController.m; sourceTree = "<group>"; };
+		A001E92D18D7D91A0070FFE7 /* EFBAviationCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBAviationCalculator.h; sourceTree = "<group>"; };
+		A001E92E18D7D91A0070FFE7 /* EFBAviationCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBAviationCalculator.m; sourceTree = "<group>"; };
+		A001E92F18D7D91A0070FFE7 /* EFBUnitSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBUnitSystem.h; sourceTree = "<group>"; };
+		A001E93018D7D91A0070FFE7 /* EFBUnitSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBUnitSystem.m; sourceTree = "<group>"; };
+		A001E93818D7EA320070FFE7 /* calculatorScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calculatorScreen@2x.png"; sourceTree = "<group>"; };
+		A001E93918D7EA320070FFE7 /* darkGrayButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "darkGrayButton@2x.png"; sourceTree = "<group>"; };
+		A001E93B18D7EA320070FFE7 /* lightGrayButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lightGrayButton@2x.png"; sourceTree = "<group>"; };
+		A001E93C18D7EA320070FFE7 /* new-calculator-nightmode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-calculator-nightmode.png"; sourceTree = "<group>"; };
+		A001E93D18D7EA320070FFE7 /* new-calculator-nightmode_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-calculator-nightmode_en.png"; sourceTree = "<group>"; };
+		A001E93E18D7EA320070FFE7 /* new-calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-calculator.png"; sourceTree = "<group>"; };
+		A001E93F18D7EA320070FFE7 /* new-calculator_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-calculator_en.png"; sourceTree = "<group>"; };
+		A001E94018D7EA320070FFE7 /* new-calculatorBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-calculatorBG.png"; sourceTree = "<group>"; };
+		A001E94118D7EA320070FFE7 /* new-calculatorBGLanscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-calculatorBGLanscape.png"; sourceTree = "<group>"; };
+		A001E94218D7EA320070FFE7 /* utilitiesBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utilitiesBg.png; sourceTree = "<group>"; };
+		A001E94418D7EA320070FFE7 /* utilitiesTextbox_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utilitiesTextbox_active.png; sourceTree = "<group>"; };
+		A01156DA193FF74200140DE8 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+		A08287CC190A0ABA003FD2AD /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "calculator/icon@2x.png"; sourceTree = "<group>"; };
+		A08287CE190A2C7E003FD2AD /* bg_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_line.png; sourceTree = "<group>"; };
+		A08CF467192DA41100209391 /* EFBDictionaryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBDictionaryViewCell.h; sourceTree = "<group>"; };
+		A08CF468192DA41100209391 /* EFBDictionaryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBDictionaryViewCell.m; sourceTree = "<group>"; };
+		A08CF469192DA41100209391 /* EFBDictionaryViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFBDictionaryViewCell.xib; sourceTree = "<group>"; };
+		A08CF46A192DA41100209391 /* EFBDictionaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBDictionaryViewController.h; sourceTree = "<group>"; };
+		A08CF46B192DA41100209391 /* EFBDictionaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBDictionaryViewController.m; sourceTree = "<group>"; };
+		A08CF471192DA59800209391 /* abbr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = abbr.txt; sourceTree = "<group>"; };
+		A08CF473192DBFF000209391 /* cell50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell50.png; sourceTree = "<group>"; };
+		A0AA443218E50EB80099512E /* EFBAssist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = EFBAssist.entitlements; sourceTree = "<group>"; };
+		A0AF7ED4191B64A000C8ED35 /* app-aviation-cal-w@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-aviation-cal-w@2x.png"; sourceTree = "<group>"; };
+		A0AF7ED5191B64A000C8ED35 /* app-aviation-cal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-aviation-cal@2x.png"; sourceTree = "<group>"; };
+		A0AF7ED6191B64A000C8ED35 /* app-calculator-w@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-calculator-w@2x.png"; sourceTree = "<group>"; };
+		A0AF7ED7191B64A000C8ED35 /* app-calculator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-calculator@2x.png"; sourceTree = "<group>"; };
+		A0AF7ED8191B64A000C8ED35 /* app-unit-convert-w@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-unit-convert-w@2x.png"; sourceTree = "<group>"; };
+		A0AF7ED9191B64A000C8ED35 /* app-unit-convert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-unit-convert@2x.png"; sourceTree = "<group>"; };
+		A0BC8A6319615365006B2C59 /* calculator_equal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calculator_equal@2x.png"; sourceTree = "<group>"; };
+		A0BC8A6419615365006B2C59 /* calculator_number@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calculator_number@2x.png"; sourceTree = "<group>"; };
+		A0BC8A6519615365006B2C59 /* calculator_show@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calculator_show@2x.png"; sourceTree = "<group>"; };
+		A0BC8A6619615365006B2C59 /* calculator_zero@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calculator_zero@2x.png"; sourceTree = "<group>"; };
+		A0BC8A6B196153A9006B2C59 /* calculator_change@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calculator_change@2x.png"; sourceTree = "<group>"; };
+		A0DAC0A818D68516002EF002 /* EFBAssist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFBAssist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0DAC0AB18D68516002EF002 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A0DAC0AD18D68516002EF002 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0DAC0AF18D68516002EF002 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0DAC0B318D68516002EF002 /* EFBAssist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EFBAssist-Info.plist"; sourceTree = "<group>"; };
+		A0DAC0B518D68516002EF002 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0DAC0B718D68516002EF002 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0DAC0B918D68516002EF002 /* EFBAssist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EFBAssist-Prefix.pch"; sourceTree = "<group>"; };
+		A0DAC0BA18D68516002EF002 /* EFBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EFBAppDelegate.h; sourceTree = "<group>"; };
+		A0DAC0BB18D68516002EF002 /* EFBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EFBAppDelegate.m; sourceTree = "<group>"; };
+		A0DAC0BD18D68516002EF002 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A0DAC0BF18D68516002EF002 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A0DAC0C118D68516002EF002 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A0DAC0C818D68516002EF002 /* EFBAssistTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EFBAssistTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0DAC0C918D68516002EF002 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A0DAC0D118D68516002EF002 /* EFBAssistTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EFBAssistTests-Info.plist"; sourceTree = "<group>"; };
+		A0DAC0D318D68516002EF002 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0DAC0D518D68516002EF002 /* EFBAssistTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EFBAssistTests.h; sourceTree = "<group>"; };
+		A0DAC0D618D68516002EF002 /* EFBAssistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EFBAssistTests.m; sourceTree = "<group>"; };
+		A0DAC0EC18D68675002EF002 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A0DAC0EE18D68693002EF002 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A0DAC0F118D68729002EF002 /* app-add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-add@2x.png"; sourceTree = "<group>"; };
+		A0DAC0F218D68729002EF002 /* app-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-bg@2x.png"; sourceTree = "<group>"; };
+		A0DAC0F318D68729002EF002 /* app-flight-exp-w@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-flight-exp-w@2x.png"; sourceTree = "<group>"; };
+		A0DAC0F418D68729002EF002 /* app-flight-exp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-flight-exp@2x.png"; sourceTree = "<group>"; };
+		A0DAC0F518D68729002EF002 /* app-flight-info-w@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-flight-info-w@2x.png"; sourceTree = "<group>"; };
+		A0DAC0F618D68729002EF002 /* app-flight-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-flight-info@2x.png"; sourceTree = "<group>"; };
+		A0DAC0F718D68729002EF002 /* app-information-w@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-information-w@2x.png"; sourceTree = "<group>"; };
+		A0DAC0F818D68729002EF002 /* app-information@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-information@2x.png"; sourceTree = "<group>"; };
+		A0DAC0F918D68729002EF002 /* app-lock-screen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-lock-screen@2x.png"; sourceTree = "<group>"; };
+		A0DAC0FA18D68729002EF002 /* app-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-logo@2x.png"; sourceTree = "<group>"; };
+		A0DAC0FB18D68729002EF002 /* app-mainmenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-mainmenu@2x.png"; sourceTree = "<group>"; };
+		A0DAC0FC18D68729002EF002 /* app-spread@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-spread@2x.png"; sourceTree = "<group>"; };
+		A0DAC0FD18D68729002EF002 /* app-submit-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-submit-icon@2x.png"; sourceTree = "<group>"; };
+		A0DAC0FE18D68729002EF002 /* app-submit-w@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-submit-w@2x.png"; sourceTree = "<group>"; };
+		A0DAC0FF18D68729002EF002 /* app-submit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-submit@2x.png"; sourceTree = "<group>"; };
+		A0DAC10018D68729002EF002 /* app-tab-selected-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-tab-selected-bg@2x.png"; sourceTree = "<group>"; };
+		A0DAC10118D68729002EF002 /* app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = app.plist; path = Application/app.plist; sourceTree = "<group>"; };
+		A0DAC10318D68729002EF002 /* custom-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "custom-logo@2x.png"; sourceTree = "<group>"; };
+		A0DAC10618D68729002EF002 /* app_locked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_locked@2x.png"; sourceTree = "<group>"; };
+		A0DAC10718D68729002EF002 /* app_unlocked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_unlocked@2x.png"; sourceTree = "<group>"; };
+		A0DAC10818D68729002EF002 /* framework-assignment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "framework-assignment@2x.png"; sourceTree = "<group>"; };
+		A0DAC10918D68729002EF002 /* framework-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "framework-bg@2x.png"; sourceTree = "<group>"; };
+		A0DAC10A18D68729002EF002 /* framework-efb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "framework-efb@2x.png"; sourceTree = "<group>"; };
+		A0DAC10B18D68729002EF002 /* framework-fd-pro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "framework-fd-pro@2x.png"; sourceTree = "<group>"; };
+		A0DAC10C18D68729002EF002 /* framework-line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "framework-line@2x.png"; sourceTree = "<group>"; };
+		A0DAC10D18D68729002EF002 /* framework-mainmenu-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "framework-mainmenu-bg@2x.png"; sourceTree = "<group>"; };
+		A0DAC10E18D68729002EF002 /* framework-manage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "framework-manage@2x.png"; sourceTree = "<group>"; };
+		A0DAC10F18D68729002EF002 /* framework-menuitem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "framework-menuitem@2x.png"; sourceTree = "<group>"; };
+		A0DAC11018D68729002EF002 /* framework-message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "framework-message@2x.png"; sourceTree = "<group>"; };
+		A0DAC11118D68729002EF002 /* framework-release@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "framework-release@2x.png"; sourceTree = "<group>"; };
+		A0DAC11218D68729002EF002 /* framework-slider-switch-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "framework-slider-switch-button@2x.png"; sourceTree = "<group>"; };
+		A0DAC11318D68729002EF002 /* framework-slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "framework-slider@2x.png"; sourceTree = "<group>"; };
+		A0DAC11418D68729002EF002 /* framework-switch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "framework-switch@2x.png"; sourceTree = "<group>"; };
+		A0DAC11518D68729002EF002 /* framework-tab-button-selected-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "framework-tab-button-selected-bg@2x.png"; sourceTree = "<group>"; };
+		A0DAC11618D68729002EF002 /* tool-bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool-bottom@2x.png"; sourceTree = "<group>"; };
+		A0DAC11718D68729002EF002 /* tool-mid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool-mid@2x.png"; sourceTree = "<group>"; };
+		A0DAC11818D68729002EF002 /* tool-top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool-top@2x.png"; sourceTree = "<group>"; };
+		A0DAC14018D6891E002EF002 /* EFBCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBCalculatorViewController.h; sourceTree = "<group>"; };
+		A0DAC14118D6891E002EF002 /* EFBCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBCalculatorViewController.m; sourceTree = "<group>"; };
+		A0DAC14318D68A01002EF002 /* EFBUnitConverrtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBUnitConverrtViewController.h; sourceTree = "<group>"; };
+		A0DAC14418D68A01002EF002 /* EFBUnitConverrtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBUnitConverrtViewController.m; sourceTree = "<group>"; };
+		A0DAC14618D68A26002EF002 /* EFBAviationCalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBAviationCalViewController.h; sourceTree = "<group>"; };
+		A0DAC14718D68A26002EF002 /* EFBAviationCalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBAviationCalViewController.m; sourceTree = "<group>"; };
+		A0DAC1B318D6F849002EF002 /* CalculatorCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorCellView.h; sourceTree = "<group>"; };
+		A0DAC1B418D6F849002EF002 /* CalculatorCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorCellView.m; sourceTree = "<group>"; };
+		A0DAC1B518D6F849002EF002 /* CalculatorCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculatorCellView.xib; sourceTree = "<group>"; };
+		A0DAC1B618D6F849002EF002 /* EFBCalculatorUnitCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBCalculatorUnitCellView.h; sourceTree = "<group>"; };
+		A0DAC1B718D6F849002EF002 /* EFBCalculatorUnitCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBCalculatorUnitCellView.m; sourceTree = "<group>"; };
+		A0DAC1B818D6F849002EF002 /* EFBCalculatorUnitCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFBCalculatorUnitCellView.xib; sourceTree = "<group>"; };
+		A0DAC1B918D6F849002EF002 /* EFBNumberPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBNumberPadViewController.h; sourceTree = "<group>"; };
+		A0DAC1BA18D6F849002EF002 /* EFBNumberPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBNumberPadViewController.m; sourceTree = "<group>"; };
+		A0DAC1BB18D6F849002EF002 /* EFBNumberPadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFBNumberPadViewController.xib; sourceTree = "<group>"; };
+		A0DAC1BC18D6F849002EF002 /* EFBNumpadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBNumpadController.h; sourceTree = "<group>"; };
+		A0DAC1BD18D6F849002EF002 /* EFBNumpadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBNumpadController.m; sourceTree = "<group>"; };
+		A0DAC1BE18D6F849002EF002 /* EFBUtilitiesTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBUtilitiesTextField.h; sourceTree = "<group>"; };
+		A0DAC1BF18D6F849002EF002 /* EFBUtilitiesTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBUtilitiesTextField.m; sourceTree = "<group>"; };
+		A0DAC1C018D6F849002EF002 /* EFBUtilitiesTitleCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBUtilitiesTitleCellView.h; sourceTree = "<group>"; };
+		A0DAC1C118D6F849002EF002 /* EFBUtilitiesTitleCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBUtilitiesTitleCellView.m; sourceTree = "<group>"; };
+		A0DAC1C218D6F849002EF002 /* EFBUtilitiesTitleCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFBUtilitiesTitleCellView.xib; sourceTree = "<group>"; };
+		A0DD7F201960EBE800194F8D /* utilitiesButton_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "utilitiesButton_select@2x.png"; sourceTree = "<group>"; };
+		A0DD7F211960EBE800194F8D /* utilitiesButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "utilitiesButton@2x.png"; sourceTree = "<group>"; };
+		A0DD7F241960F48C00194F8D /* utilitiesButton_select1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "utilitiesButton_select1@2x.png"; sourceTree = "<group>"; };
+		A0DD7F251960F48C00194F8D /* utilitiesButton1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "utilitiesButton1@2x.png"; sourceTree = "<group>"; };
+		A0DD7F281960FE7100194F8D /* utilitiesTextbox_display@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "utilitiesTextbox_display@2x.png"; sourceTree = "<group>"; };
+		A0DD7F291960FE7100194F8D /* utilitiesTextbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "utilitiesTextbox@2x.png"; sourceTree = "<group>"; };
+		A0FADDD118D6F8BA00FD33B7 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		A0FADDD218D6F8BA00FD33B7 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		A0FADDD318D6F8BA00FD33B7 /* CalculatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculatorViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0DAC0A518D68516002EF002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DAC0EF18D68693002EF002 /* QuartzCore.framework in Frameworks */,
+				A0DAC0ED18D68675002EF002 /* Security.framework in Frameworks */,
+				A0DAC0AC18D68516002EF002 /* UIKit.framework in Frameworks */,
+				A0DAC0AE18D68516002EF002 /* Foundation.framework in Frameworks */,
+				A0DAC0B018D68516002EF002 /* CoreGraphics.framework in Frameworks */,
+				3CD4D0E94708489485510E9E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DAC0C418D68516002EF002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DAC0CA18D68516002EF002 /* SenTestingKit.framework in Frameworks */,
+				A0DAC0CB18D68516002EF002 /* UIKit.framework in Frameworks */,
+				A0DAC0CC18D68516002EF002 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A001E8EE18D7D8D00070FFE7 /* Aviation Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				A001E8FE18D7D8D00070FFE7 /* EFBUtilitiesDetailViewController.h */,
+				A001E8FF18D7D8D00070FFE7 /* EFBUtilitiesDetailViewController.m */,
+				A001E90018D7D8D00070FFE7 /* EFBUtilitiesDetailViewController.xib */,
+				A001E8EF18D7D8D00070FFE7 /* EFBClimbRateViewController.h */,
+				A001E8F018D7D8D00070FFE7 /* EFBClimbRateViewController.m */,
+				A001E8F118D7D8D00070FFE7 /* EFBClimbRateViewController.xib */,
+				A001E8F218D7D8D00070FFE7 /* EFBDropDistanceViewController.h */,
+				A001E8F318D7D8D00070FFE7 /* EFBDropDistanceViewController.m */,
+				A001E8F418D7D8D00070FFE7 /* EFBDropDistanceViewController.xib */,
+				A001E8F518D7D8D00070FFE7 /* EFBISATemperatureViewController.h */,
+				A001E8F618D7D8D00070FFE7 /* EFBISATemperatureViewController.m */,
+				A001E8F718D7D8D00070FFE7 /* EFBISATemperatureViewController.xib */,
+				A001E8F818D7D8D00070FFE7 /* EFBPressureHeightViewController.h */,
+				A001E8F918D7D8D00070FFE7 /* EFBPressureHeightViewController.m */,
+				A001E8FA18D7D8D00070FFE7 /* EFBPressureHeightViewController.xib */,
+				A001E8FB18D7D8D00070FFE7 /* EFBRefuelVolumeViewController.h */,
+				A001E8FC18D7D8D00070FFE7 /* EFBRefuelVolumeViewController.m */,
+				A001E8FD18D7D8D00070FFE7 /* EFBRefuelVolumeViewController.xib */,
+				A001E90118D7D8D00070FFE7 /* EFBWindComponentViewController.h */,
+				A001E90218D7D8D00070FFE7 /* EFBWindComponentViewController.m */,
+				A001E90318D7D8D00070FFE7 /* EFBWindComponentViewController.xib */,
+			);
+			path = "Aviation Calculator";
+			sourceTree = "<group>";
+		};
+		A001E90418D7D8D00070FFE7 /* Unit Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				A001E90F18D7D8D00070FFE7 /* EFBUnitTranslatedDetailViewController.h */,
+				A001E91018D7D8D00070FFE7 /* EFBUnitTranslatedDetailViewController.m */,
+				A001E91118D7D8D00070FFE7 /* EFBUnitTranslatedDetailViewController.xib */,
+				A001E90518D7D8D00070FFE7 /* EFBDensityTranslatedViewController.h */,
+				A001E90618D7D8D00070FFE7 /* EFBDensityTranslatedViewController.m */,
+				A001E90718D7D8D00070FFE7 /* EFBDistanceTranslatedViewController.h */,
+				A001E90818D7D8D00070FFE7 /* EFBDistanceTranslatedViewController.m */,
+				A001E90918D7D8D00070FFE7 /* EFBPressureTranslatedViewController.h */,
+				A001E90A18D7D8D00070FFE7 /* EFBPressureTranslatedViewController.m */,
+				A001E90B18D7D8D00070FFE7 /* EFBSpeedTranslatedViewController.h */,
+				A001E90C18D7D8D00070FFE7 /* EFBSpeedTranslatedViewController.m */,
+				A001E90D18D7D8D00070FFE7 /* EFBTemperatureTranslatedViewController.h */,
+				A001E90E18D7D8D00070FFE7 /* EFBTemperatureTranslatedViewController.m */,
+				A001E91218D7D8D00070FFE7 /* EFBVolumeTranslatedViewController.h */,
+				A001E91318D7D8D00070FFE7 /* EFBVolumeTranslatedViewController.m */,
+				A001E91418D7D8D00070FFE7 /* EFBWeightTranslatedViewController.h */,
+				A001E91518D7D8D00070FFE7 /* EFBWeightTranslatedViewController.m */,
+			);
+			path = "Unit Conversion";
+			sourceTree = "<group>";
+		};
+		A001E93618D7EA320070FFE7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A08CF471192DA59800209391 /* abbr.txt */,
+				A08287CC190A0ABA003FD2AD /* icon@2x.png */,
+				A001E93718D7EA320070FFE7 /* calculator */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A001E93718D7EA320070FFE7 /* calculator */ = {
+			isa = PBXGroup;
+			children = (
+				A0BC8A6B196153A9006B2C59 /* calculator_change@2x.png */,
+				A0BC8A6319615365006B2C59 /* calculator_equal@2x.png */,
+				A0BC8A6419615365006B2C59 /* calculator_number@2x.png */,
+				A0BC8A6519615365006B2C59 /* calculator_show@2x.png */,
+				A0BC8A6619615365006B2C59 /* calculator_zero@2x.png */,
+				A0DD7F281960FE7100194F8D /* utilitiesTextbox_display@2x.png */,
+				A0DD7F291960FE7100194F8D /* utilitiesTextbox@2x.png */,
+				A0DD7F241960F48C00194F8D /* utilitiesButton_select1@2x.png */,
+				A0DD7F251960F48C00194F8D /* utilitiesButton1@2x.png */,
+				A0DD7F201960EBE800194F8D /* utilitiesButton_select@2x.png */,
+				A0DD7F211960EBE800194F8D /* utilitiesButton@2x.png */,
+				A08CF473192DBFF000209391 /* cell50.png */,
+				A001E93818D7EA320070FFE7 /* calculatorScreen@2x.png */,
+				A0AF7ED4191B64A000C8ED35 /* app-aviation-cal-w@2x.png */,
+				A0AF7ED5191B64A000C8ED35 /* app-aviation-cal@2x.png */,
+				A0AF7ED6191B64A000C8ED35 /* app-calculator-w@2x.png */,
+				A0AF7ED7191B64A000C8ED35 /* app-calculator@2x.png */,
+				A0AF7ED8191B64A000C8ED35 /* app-unit-convert-w@2x.png */,
+				A0AF7ED9191B64A000C8ED35 /* app-unit-convert@2x.png */,
+				A08287CE190A2C7E003FD2AD /* bg_line.png */,
+				A001E93918D7EA320070FFE7 /* darkGrayButton@2x.png */,
+				A001E93B18D7EA320070FFE7 /* lightGrayButton@2x.png */,
+				A001E93C18D7EA320070FFE7 /* new-calculator-nightmode.png */,
+				A001E93D18D7EA320070FFE7 /* new-calculator-nightmode_en.png */,
+				A001E93E18D7EA320070FFE7 /* new-calculator.png */,
+				A001E93F18D7EA320070FFE7 /* new-calculator_en.png */,
+				A001E94018D7EA320070FFE7 /* new-calculatorBG.png */,
+				A001E94118D7EA320070FFE7 /* new-calculatorBGLanscape.png */,
+				A001E94218D7EA320070FFE7 /* utilitiesBg.png */,
+				A001E94418D7EA320070FFE7 /* utilitiesTextbox_active.png */,
+			);
+			path = calculator;
+			sourceTree = "<group>";
+		};
+		A0DAC09F18D68516002EF002 = {
+			isa = PBXGroup;
+			children = (
+				A0DAC0B118D68516002EF002 /* EFBAssist */,
+				A0DAC0CF18D68516002EF002 /* EFBAssistTests */,
+				A0DAC0AA18D68516002EF002 /* Frameworks */,
+				A0DAC0A918D68516002EF002 /* Products */,
+				47A41626C9254C3BBDB2FF3E /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A0DAC0A918D68516002EF002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0DAC0A818D68516002EF002 /* EFBAssist.app */,
+				A0DAC0C818D68516002EF002 /* EFBAssistTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0DAC0AA18D68516002EF002 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0DAC0EE18D68693002EF002 /* QuartzCore.framework */,
+				A0DAC0EC18D68675002EF002 /* Security.framework */,
+				A0DAC0AB18D68516002EF002 /* UIKit.framework */,
+				A0DAC0AD18D68516002EF002 /* Foundation.framework */,
+				A0DAC0AF18D68516002EF002 /* CoreGraphics.framework */,
+				A0DAC0C918D68516002EF002 /* SenTestingKit.framework */,
+				2918C44A7D6D4AC7A0A38E73 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0DAC0B118D68516002EF002 /* EFBAssist */ = {
+			isa = PBXGroup;
+			children = (
+				A01156DA193FF74200140DE8 /* default.css */,
+				A0AA443218E50EB80099512E /* EFBAssist.entitlements */,
+				A0DAC10118D68729002EF002 /* app.plist */,
+				A0DAC0BA18D68516002EF002 /* EFBAppDelegate.h */,
+				A0DAC0BB18D68516002EF002 /* EFBAppDelegate.m */,
+				A0DAC13F18D688DD002EF002 /* UI */,
+				A0DAC0B218D68516002EF002 /* Supporting Files */,
+				A001E93618D7EA320070FFE7 /* Resources */,
+				A0DAC10218D68729002EF002 /* Customization */,
+				A0DAC0F018D68729002EF002 /* Application */,
+				A0DAC10518D68729002EF002 /* Shared */,
+			);
+			path = EFBAssist;
+			sourceTree = "<group>";
+		};
+		A0DAC0B218D68516002EF002 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0DAC0B318D68516002EF002 /* EFBAssist-Info.plist */,
+				A0DAC0B418D68516002EF002 /* InfoPlist.strings */,
+				A0DAC0B718D68516002EF002 /* main.m */,
+				A0DAC0B918D68516002EF002 /* EFBAssist-Prefix.pch */,
+				A0DAC0BD18D68516002EF002 /* Default.png */,
+				A0DAC0BF18D68516002EF002 /* Default@2x.png */,
+				A0DAC0C118D68516002EF002 /* Default-568h@2x.png */,
+				A001E8EA18D7D6BD0070FFE7 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0DAC0CF18D68516002EF002 /* EFBAssistTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0DAC0D518D68516002EF002 /* EFBAssistTests.h */,
+				A0DAC0D618D68516002EF002 /* EFBAssistTests.m */,
+				A0DAC0D018D68516002EF002 /* Supporting Files */,
+			);
+			path = EFBAssistTests;
+			sourceTree = "<group>";
+		};
+		A0DAC0D018D68516002EF002 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0DAC0D118D68516002EF002 /* EFBAssistTests-Info.plist */,
+				A0DAC0D218D68516002EF002 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0DAC0F018D68729002EF002 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A0DAC0F118D68729002EF002 /* app-add@2x.png */,
+				A0DAC0F218D68729002EF002 /* app-bg@2x.png */,
+				A0DAC0F318D68729002EF002 /* app-flight-exp-w@2x.png */,
+				A0DAC0F418D68729002EF002 /* app-flight-exp@2x.png */,
+				A0DAC0F518D68729002EF002 /* app-flight-info-w@2x.png */,
+				A0DAC0F618D68729002EF002 /* app-flight-info@2x.png */,
+				A0DAC0F718D68729002EF002 /* app-information-w@2x.png */,
+				A0DAC0F818D68729002EF002 /* app-information@2x.png */,
+				A0DAC0F918D68729002EF002 /* app-lock-screen@2x.png */,
+				A0DAC0FA18D68729002EF002 /* app-logo@2x.png */,
+				A0DAC0FB18D68729002EF002 /* app-mainmenu@2x.png */,
+				A0DAC0FC18D68729002EF002 /* app-spread@2x.png */,
+				A0DAC0FD18D68729002EF002 /* app-submit-icon@2x.png */,
+				A0DAC0FE18D68729002EF002 /* app-submit-w@2x.png */,
+				A0DAC0FF18D68729002EF002 /* app-submit@2x.png */,
+				A0DAC10018D68729002EF002 /* app-tab-selected-bg@2x.png */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A0DAC10218D68729002EF002 /* Customization */ = {
+			isa = PBXGroup;
+			children = (
+				A0DAC10318D68729002EF002 /* custom-logo@2x.png */,
+			);
+			path = Customization;
+			sourceTree = "<group>";
+		};
+		A0DAC10518D68729002EF002 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A0DAC10618D68729002EF002 /* app_locked@2x.png */,
+				A0DAC10718D68729002EF002 /* app_unlocked@2x.png */,
+				A0DAC10818D68729002EF002 /* framework-assignment@2x.png */,
+				A0DAC10918D68729002EF002 /* framework-bg@2x.png */,
+				A0DAC10A18D68729002EF002 /* framework-efb@2x.png */,
+				A0DAC10B18D68729002EF002 /* framework-fd-pro@2x.png */,
+				A0DAC10C18D68729002EF002 /* framework-line@2x.png */,
+				A0DAC10D18D68729002EF002 /* framework-mainmenu-bg@2x.png */,
+				A0DAC10E18D68729002EF002 /* framework-manage@2x.png */,
+				A0DAC10F18D68729002EF002 /* framework-menuitem@2x.png */,
+				A0DAC11018D68729002EF002 /* framework-message@2x.png */,
+				A0DAC11118D68729002EF002 /* framework-release@2x.png */,
+				A0DAC11218D68729002EF002 /* framework-slider-switch-button@2x.png */,
+				A0DAC11318D68729002EF002 /* framework-slider@2x.png */,
+				A0DAC11418D68729002EF002 /* framework-switch@2x.png */,
+				A0DAC11518D68729002EF002 /* framework-tab-button-selected-bg@2x.png */,
+				A0DAC11618D68729002EF002 /* tool-bottom@2x.png */,
+				A0DAC11718D68729002EF002 /* tool-mid@2x.png */,
+				A0DAC11818D68729002EF002 /* tool-top@2x.png */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A0DAC13F18D688DD002EF002 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A08CF467192DA41100209391 /* EFBDictionaryViewCell.h */,
+				A08CF468192DA41100209391 /* EFBDictionaryViewCell.m */,
+				A08CF469192DA41100209391 /* EFBDictionaryViewCell.xib */,
+				A08CF46A192DA41100209391 /* EFBDictionaryViewController.h */,
+				A08CF46B192DA41100209391 /* EFBDictionaryViewController.m */,
+				A0DAC1B218D6F80A002EF002 /* Controls */,
+				A001E8EE18D7D8D00070FFE7 /* Aviation Calculator */,
+				A001E90418D7D8D00070FFE7 /* Unit Conversion */,
+				A0FADDD118D6F8BA00FD33B7 /* CalculatorViewController.h */,
+				A0FADDD218D6F8BA00FD33B7 /* CalculatorViewController.m */,
+				A0FADDD318D6F8BA00FD33B7 /* CalculatorViewController.xib */,
+				A0DAC14018D6891E002EF002 /* EFBCalculatorViewController.h */,
+				A0DAC14118D6891E002EF002 /* EFBCalculatorViewController.m */,
+				A0DAC14318D68A01002EF002 /* EFBUnitConverrtViewController.h */,
+				A0DAC14418D68A01002EF002 /* EFBUnitConverrtViewController.m */,
+				A0DAC14618D68A26002EF002 /* EFBAviationCalViewController.h */,
+				A0DAC14718D68A26002EF002 /* EFBAviationCalViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A0DAC1B218D6F80A002EF002 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				A001E92D18D7D91A0070FFE7 /* EFBAviationCalculator.h */,
+				A001E92E18D7D91A0070FFE7 /* EFBAviationCalculator.m */,
+				A001E92F18D7D91A0070FFE7 /* EFBUnitSystem.h */,
+				A001E93018D7D91A0070FFE7 /* EFBUnitSystem.m */,
+				A0DAC1B318D6F849002EF002 /* CalculatorCellView.h */,
+				A0DAC1B418D6F849002EF002 /* CalculatorCellView.m */,
+				A0DAC1B518D6F849002EF002 /* CalculatorCellView.xib */,
+				A0DAC1B618D6F849002EF002 /* EFBCalculatorUnitCellView.h */,
+				A0DAC1B718D6F849002EF002 /* EFBCalculatorUnitCellView.m */,
+				A0DAC1B818D6F849002EF002 /* EFBCalculatorUnitCellView.xib */,
+				A0DAC1B918D6F849002EF002 /* EFBNumberPadViewController.h */,
+				A0DAC1BA18D6F849002EF002 /* EFBNumberPadViewController.m */,
+				A0DAC1BB18D6F849002EF002 /* EFBNumberPadViewController.xib */,
+				A0DAC1BC18D6F849002EF002 /* EFBNumpadController.h */,
+				A0DAC1BD18D6F849002EF002 /* EFBNumpadController.m */,
+				A0DAC1BE18D6F849002EF002 /* EFBUtilitiesTextField.h */,
+				A0DAC1BF18D6F849002EF002 /* EFBUtilitiesTextField.m */,
+				A0DAC1C018D6F849002EF002 /* EFBUtilitiesTitleCellView.h */,
+				A0DAC1C118D6F849002EF002 /* EFBUtilitiesTitleCellView.m */,
+				A0DAC1C218D6F849002EF002 /* EFBUtilitiesTitleCellView.xib */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0DAC0A718D68516002EF002 /* EFBAssist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0DAC0DA18D68516002EF002 /* Build configuration list for PBXNativeTarget "EFBAssist" */;
+			buildPhases = (
+				40CBF8C09B444E759115AD36 /* Check Pods Manifest.lock */,
+				A0DAC0A418D68516002EF002 /* Sources */,
+				A0DAC0A518D68516002EF002 /* Frameworks */,
+				A0DAC0A618D68516002EF002 /* Resources */,
+				612D1798EE644F1E8C68BF0A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EFBAssist;
+			productName = EFBAssist;
+			productReference = A0DAC0A818D68516002EF002 /* EFBAssist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0DAC0C718D68516002EF002 /* EFBAssistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0DAC0DD18D68516002EF002 /* Build configuration list for PBXNativeTarget "EFBAssistTests" */;
+			buildPhases = (
+				A0DAC0C318D68516002EF002 /* Sources */,
+				A0DAC0C418D68516002EF002 /* Frameworks */,
+				A0DAC0C518D68516002EF002 /* Resources */,
+				A0DAC0C618D68516002EF002 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0DAC0CE18D68516002EF002 /* PBXTargetDependency */,
+			);
+			name = EFBAssistTests;
+			productName = EFBAssistTests;
+			productReference = A0DAC0C818D68516002EF002 /* EFBAssistTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0DAC0A018D68516002EF002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EFB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ADCC;
+				TargetAttributes = {
+					A0DAC0A718D68516002EF002 = {
+						DevelopmentTeam = XW65G7FM9W;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A0DAC0A318D68516002EF002 /* Build configuration list for PBXProject "EFBAssist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = A0DAC09F18D68516002EF002;
+			productRefGroup = A0DAC0A918D68516002EF002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0DAC0A718D68516002EF002 /* EFBAssist */,
+				A0DAC0C718D68516002EF002 /* EFBAssistTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0DAC0A618D68516002EF002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AF7EDA191B64A000C8ED35 /* app-aviation-cal-w@2x.png in Resources */,
+				A0BC8A6819615365006B2C59 /* calculator_number@2x.png in Resources */,
+				A0DAC0B618D68516002EF002 /* InfoPlist.strings in Resources */,
+				A0DAC0BE18D68516002EF002 /* Default.png in Resources */,
+				A001E91D18D7D8D00070FFE7 /* EFBPressureHeightViewController.xib in Resources */,
+				A0DAC0C018D68516002EF002 /* Default@2x.png in Resources */,
+				A001E92318D7D8D00070FFE7 /* EFBWindComponentViewController.xib in Resources */,
+				A0DAC0C218D68516002EF002 /* Default-568h@2x.png in Resources */,
+				A001E92118D7D8D00070FFE7 /* EFBUtilitiesDetailViewController.xib in Resources */,
+				A0DAC11918D68729002EF002 /* app-add@2x.png in Resources */,
+				A0BC8A6C196153A9006B2C59 /* calculator_change@2x.png in Resources */,
+				A0DAC11A18D68729002EF002 /* app-bg@2x.png in Resources */,
+				A0AF7EDE191B64A000C8ED35 /* app-unit-convert-w@2x.png in Resources */,
+				A0DAC11B18D68729002EF002 /* app-flight-exp-w@2x.png in Resources */,
+				A0DD7F261960F48C00194F8D /* utilitiesButton_select1@2x.png in Resources */,
+				A0DAC11C18D68729002EF002 /* app-flight-exp@2x.png in Resources */,
+				A001E8E818D7D6BD0070FFE7 /* Localizable.strings in Resources */,
+				A0DAC11D18D68729002EF002 /* app-flight-info-w@2x.png in Resources */,
+				A0DAC11E18D68729002EF002 /* app-flight-info@2x.png in Resources */,
+				A001E94E18D7EA320070FFE7 /* new-calculator.png in Resources */,
+				A0DAC11F18D68729002EF002 /* app-information-w@2x.png in Resources */,
+				A0DAC12018D68729002EF002 /* app-information@2x.png in Resources */,
+				A08287CD190A0ABA003FD2AD /* icon@2x.png in Resources */,
+				A0DAC12118D68729002EF002 /* app-lock-screen@2x.png in Resources */,
+				A0DD7F2B1960FE7100194F8D /* utilitiesTextbox@2x.png in Resources */,
+				A0DAC12218D68729002EF002 /* app-logo@2x.png in Resources */,
+				A0DAC12318D68729002EF002 /* app-mainmenu@2x.png in Resources */,
+				A08CF472192DA59800209391 /* abbr.txt in Resources */,
+				A0DAC12418D68729002EF002 /* app-spread@2x.png in Resources */,
+				A0DAC12518D68729002EF002 /* app-submit-icon@2x.png in Resources */,
+				A001E94B18D7EA320070FFE7 /* lightGrayButton@2x.png in Resources */,
+				A0DD7F2A1960FE7100194F8D /* utilitiesTextbox_display@2x.png in Resources */,
+				A0DD7F221960EBE900194F8D /* utilitiesButton_select@2x.png in Resources */,
+				A0DAC12618D68729002EF002 /* app-submit-w@2x.png in Resources */,
+				A01156DB193FF74200140DE8 /* default.css in Resources */,
+				A0DAC12718D68729002EF002 /* app-submit@2x.png in Resources */,
+				A0DD7F271960F48C00194F8D /* utilitiesButton1@2x.png in Resources */,
+				A0DAC12818D68729002EF002 /* app-tab-selected-bg@2x.png in Resources */,
+				A001E94F18D7EA320070FFE7 /* new-calculator_en.png in Resources */,
+				A001E91718D7D8D00070FFE7 /* EFBClimbRateViewController.xib in Resources */,
+				A0AF7EDD191B64A000C8ED35 /* app-calculator@2x.png in Resources */,
+				A0DAC12918D68729002EF002 /* app.plist in Resources */,
+				A0DAC12A18D68729002EF002 /* custom-logo@2x.png in Resources */,
+				A001E94818D7EA320070FFE7 /* calculatorScreen@2x.png in Resources */,
+				A0DAC12C18D68729002EF002 /* app_locked@2x.png in Resources */,
+				A0DAC12D18D68729002EF002 /* app_unlocked@2x.png in Resources */,
+				A0DAC12E18D68729002EF002 /* framework-assignment@2x.png in Resources */,
+				A0DAC12F18D68729002EF002 /* framework-bg@2x.png in Resources */,
+				A001E95218D7EA320070FFE7 /* utilitiesBg.png in Resources */,
+				A0DAC13018D68729002EF002 /* framework-efb@2x.png in Resources */,
+				A0DAC13118D68729002EF002 /* framework-fd-pro@2x.png in Resources */,
+				A0AF7EDB191B64A000C8ED35 /* app-aviation-cal@2x.png in Resources */,
+				A0DAC13218D68729002EF002 /* framework-line@2x.png in Resources */,
+				A0DAC13318D68729002EF002 /* framework-mainmenu-bg@2x.png in Resources */,
+				A0DAC13418D68729002EF002 /* framework-manage@2x.png in Resources */,
+				A08287CF190A2C7E003FD2AD /* bg_line.png in Resources */,
+				A001E95118D7EA320070FFE7 /* new-calculatorBGLanscape.png in Resources */,
+				A001E91918D7D8D00070FFE7 /* EFBDropDistanceViewController.xib in Resources */,
+				A0DAC13518D68729002EF002 /* framework-menuitem@2x.png in Resources */,
+				A001E95018D7EA320070FFE7 /* new-calculatorBG.png in Resources */,
+				A001E92A18D7D8D00070FFE7 /* EFBUnitTranslatedDetailViewController.xib in Resources */,
+				A0AF7EDF191B64A000C8ED35 /* app-unit-convert@2x.png in Resources */,
+				A0DAC13618D68729002EF002 /* framework-message@2x.png in Resources */,
+				A0DAC13718D68729002EF002 /* framework-release@2x.png in Resources */,
+				A0DAC13818D68729002EF002 /* framework-slider-switch-button@2x.png in Resources */,
+				A0DAC13918D68729002EF002 /* framework-slider@2x.png in Resources */,
+				A0BC8A6919615365006B2C59 /* calculator_show@2x.png in Resources */,
+				A001E94D18D7EA320070FFE7 /* new-calculator-nightmode_en.png in Resources */,
+				A001E94918D7EA320070FFE7 /* darkGrayButton@2x.png in Resources */,
+				A0BC8A6A19615365006B2C59 /* calculator_zero@2x.png in Resources */,
+				A0DAC13A18D68729002EF002 /* framework-switch@2x.png in Resources */,
+				A0AF7EDC191B64A000C8ED35 /* app-calculator-w@2x.png in Resources */,
+				A001E94C18D7EA320070FFE7 /* new-calculator-nightmode.png in Resources */,
+				A0DAC13B18D68729002EF002 /* framework-tab-button-selected-bg@2x.png in Resources */,
+				A0DD7F231960EBE900194F8D /* utilitiesButton@2x.png in Resources */,
+				A0DAC13C18D68729002EF002 /* tool-bottom@2x.png in Resources */,
+				A0DAC13D18D68729002EF002 /* tool-mid@2x.png in Resources */,
+				A0DAC13E18D68729002EF002 /* tool-top@2x.png in Resources */,
+				A0DAC1C418D6F849002EF002 /* CalculatorCellView.xib in Resources */,
+				A001E91B18D7D8D00070FFE7 /* EFBISATemperatureViewController.xib in Resources */,
+				A0BC8A6719615365006B2C59 /* calculator_equal@2x.png in Resources */,
+				A0DAC1C618D6F849002EF002 /* EFBCalculatorUnitCellView.xib in Resources */,
+				A08CF46E192DA41100209391 /* EFBDictionaryViewCell.xib in Resources */,
+				A0DAC1C818D6F849002EF002 /* EFBNumberPadViewController.xib in Resources */,
+				A0FADDD518D6F8BA00FD33B7 /* CalculatorViewController.xib in Resources */,
+				A08CF474192DBFF000209391 /* cell50.png in Resources */,
+				A001E95418D7EA320070FFE7 /* utilitiesTextbox_active.png in Resources */,
+				A0DAC1CC18D6F849002EF002 /* EFBUtilitiesTitleCellView.xib in Resources */,
+				A001E91F18D7D8D00070FFE7 /* EFBRefuelVolumeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DAC0C518D68516002EF002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DAC0D418D68516002EF002 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40CBF8C09B444E759115AD36 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		612D1798EE644F1E8C68BF0A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0DAC0C618D68516002EF002 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0DAC0A418D68516002EF002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DAC0B818D68516002EF002 /* main.m in Sources */,
+				A0DAC0BC18D68516002EF002 /* EFBAppDelegate.m in Sources */,
+				A001E92018D7D8D00070FFE7 /* EFBUtilitiesDetailViewController.m in Sources */,
+				A001E92218D7D8D00070FFE7 /* EFBWindComponentViewController.m in Sources */,
+				A001E93118D7D91A0070FFE7 /* EFBAviationCalculator.m in Sources */,
+				A001E91818D7D8D00070FFE7 /* EFBDropDistanceViewController.m in Sources */,
+				A001E93218D7D91A0070FFE7 /* EFBUnitSystem.m in Sources */,
+				A001E92418D7D8D00070FFE7 /* EFBDensityTranslatedViewController.m in Sources */,
+				A001E91618D7D8D00070FFE7 /* EFBClimbRateViewController.m in Sources */,
+				A001E91E18D7D8D00070FFE7 /* EFBRefuelVolumeViewController.m in Sources */,
+				A001E91A18D7D8D00070FFE7 /* EFBISATemperatureViewController.m in Sources */,
+				A001E92518D7D8D00070FFE7 /* EFBDistanceTranslatedViewController.m in Sources */,
+				A001E92918D7D8D00070FFE7 /* EFBUnitTranslatedDetailViewController.m in Sources */,
+				A0FADDD418D6F8BA00FD33B7 /* CalculatorViewController.m in Sources */,
+				A0DAC14218D6891E002EF002 /* EFBCalculatorViewController.m in Sources */,
+				A0DAC14518D68A01002EF002 /* EFBUnitConverrtViewController.m in Sources */,
+				A0DAC14818D68A26002EF002 /* EFBAviationCalViewController.m in Sources */,
+				A0DAC1C318D6F849002EF002 /* CalculatorCellView.m in Sources */,
+				A001E92818D7D8D00070FFE7 /* EFBTemperatureTranslatedViewController.m in Sources */,
+				A001E92C18D7D8D00070FFE7 /* EFBWeightTranslatedViewController.m in Sources */,
+				A08CF46F192DA41100209391 /* EFBDictionaryViewController.m in Sources */,
+				A001E92618D7D8D00070FFE7 /* EFBPressureTranslatedViewController.m in Sources */,
+				A0DAC1C518D6F849002EF002 /* EFBCalculatorUnitCellView.m in Sources */,
+				A0DAC1C718D6F849002EF002 /* EFBNumberPadViewController.m in Sources */,
+				A001E92718D7D8D00070FFE7 /* EFBSpeedTranslatedViewController.m in Sources */,
+				A08CF46D192DA41100209391 /* EFBDictionaryViewCell.m in Sources */,
+				A0DAC1C918D6F849002EF002 /* EFBNumpadController.m in Sources */,
+				A001E92B18D7D8D00070FFE7 /* EFBVolumeTranslatedViewController.m in Sources */,
+				A0DAC1CA18D6F849002EF002 /* EFBUtilitiesTextField.m in Sources */,
+				A001E91C18D7D8D00070FFE7 /* EFBPressureHeightViewController.m in Sources */,
+				A0DAC1CB18D6F849002EF002 /* EFBUtilitiesTitleCellView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DAC0C318D68516002EF002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DAC0D718D68516002EF002 /* EFBAssistTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0DAC0CE18D68516002EF002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0DAC0A718D68516002EF002 /* EFBAssist */;
+			targetProxy = A0DAC0CD18D68516002EF002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A001E8EA18D7D6BD0070FFE7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A001E8E918D7D6BD0070FFE7 /* en */,
+				A001E8ED18D7D6D80070FFE7 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A0DAC0B418D68516002EF002 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0DAC0B518D68516002EF002 /* en */,
+				A001E8EC18D7D6D80070FFE7 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0DAC0D218D68516002EF002 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0DAC0D318D68516002EF002 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0DAC0D818D68516002EF002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A0DAC0D918D68516002EF002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0DAC0DB18D68516002EF002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A41626C9254C3BBDB2FF3E /* Pods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EFBAssist/EFBAssist.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EFBAssist/EFBAssist-Prefix.pch";
+				INFOPLIST_FILE = "EFBAssist/EFBAssist-Info.plist";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0DAC0DC18D68516002EF002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A41626C9254C3BBDB2FF3E /* Pods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EFBAssist/EFBAssist.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EFBAssist/EFBAssist-Prefix.pch";
+				INFOPLIST_FILE = "EFBAssist/EFBAssist-Info.plist";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A0DAC0DE18D68516002EF002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EFBAssist.app/EFBAssist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EFBAssist/EFBAssist-Prefix.pch";
+				INFOPLIST_FILE = "EFBAssistTests/EFBAssistTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A0DAC0DF18D68516002EF002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EFBAssist.app/EFBAssist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EFBAssist/EFBAssist-Prefix.pch";
+				INFOPLIST_FILE = "EFBAssistTests/EFBAssistTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0DAC0A318D68516002EF002 /* Build configuration list for PBXProject "EFBAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0DAC0D818D68516002EF002 /* Debug */,
+				A0DAC0D918D68516002EF002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0DAC0DA18D68516002EF002 /* Build configuration list for PBXNativeTarget "EFBAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0DAC0DB18D68516002EF002 /* Debug */,
+				A0DAC0DC18D68516002EF002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0DAC0DD18D68516002EF002 /* Build configuration list for PBXNativeTarget "EFBAssistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0DAC0DE18D68516002EF002 /* Debug */,
+				A0DAC0DF18D68516002EF002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0DAC0A018D68516002EF002 /* Project object */;
+}

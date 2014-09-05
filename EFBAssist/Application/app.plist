@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EFBViewControllerList</key>
+	<array>
+		<dict>
+			<key>EFBViewControllerTitle</key>
+			<string>计算器</string>
+			<key>EFBTabIconPrefix</key>
+			<string>app-calculator-cal</string>
+			<key>EFBViewControllerClass</key>
+			<string>EFBCalculatorViewController</string>
+		</dict>
+		<dict>
+			<key>EFBViewControllerTitle</key>
+			<string>航空计算器</string>
+			<key>EFBTabIconPrefix</key>
+			<string>app-aviation-cal</string>
+			<key>EFBViewControllerClass</key>
+			<string>EFBAviationCalViewController</string>
+		</dict>
+		<dict>
+			<key>EFBViewControllerTitle</key>
+			<string>单位转换</string>
+			<key>EFBTabIconPrefix</key>
+			<string>app-unit-convert</string>
+			<key>EFBViewControllerClass</key>
+			<string>EFBUnitConverrtViewController</string>
+		</dict>
+		<dict>
+			<key>EFBViewControllerTitle</key>
+			<string>简字简语</string>
+			<key>EFBTabIconPrefix</key>
+			<string>app-calculator-dic</string>
+			<key>EFBViewControllerClass</key>
+			<string>EFBDictionaryViewController</string>
+		</dict>
+	</array>
+	<key>EFBHideTabbar</key>
+	<false/>
+	<key>EFBHideTabbarButtons</key>
+	<false/>
+	<key>EFBHideVersion</key>
+	<false/>
+	<key>EFBHideLogo</key>
+	<true/>
+</dict>
+</plist>

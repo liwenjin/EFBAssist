@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>app-list</key>
+	<array>
+		<dict>
+			<key>app-title</key>
+			<string>EFB管理器</string>
+			<key>app-icon</key>
+			<string>framework-manage</string>
+			<key>app-schema</key>
+			<string>adcc-efbmanage</string>
+		</dict>
+		<dict>
+			<key>app-title</key>
+			<string>电子飞行包</string>
+			<key>app-icon</key>
+			<string>framework-efb</string>
+			<key>app-schema</key>
+			<string>adcc-efb</string>
+		</dict>
+		<dict>
+			<key>app-title</key>
+			<string>航路图</string>
+			<key>app-icon</key>
+			<string>framework-enroute-chart</string>
+			<key>app-schema</key>
+			<string>adcc-enroute</string>
+		</dict>
+		<dict>
+			<key>app-title</key>
+			<string>问题反馈</string>
+			<key>app-icon</key>
+			<string>framework-feedback</string>
+			<key>app-schema</key>
+			<string>adcc-feedback</string>
+		</dict>
+	</array>
+</dict>
+</plist>
